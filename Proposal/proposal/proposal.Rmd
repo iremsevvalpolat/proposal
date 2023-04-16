@@ -1,0 +1,58 @@
+---
+title: "Causes of Income Inequality"
+author: 
+  - Polat, İrem Şevval[^1]
+bibliography: ../biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080413, [Github Repo](https://github.com/iremsevvalpolat/proposal)
+
+
+
+# Introduction
+
+ Income is a concept that expresses the money that individuals earn in return for their periodic participation in production. A very large part of the society earns an active income, that is, they have to work and spend time. In the capitalist system, people do not have the same income levels. While the income they earn varies according to the work they do, they may not earn the same income even though they do the same job.  
+
+ This research started out of curiosity about the causes of inequality in people’s income levels, and the purpose of this research is to understand what factors affect people’s income levels. In this research, using the dataset obtained from the survey that I made myself using google forms and 55 people participated; the annual incomes of people are analyzed according to their gender, industry, experiment, and education level. In the survey, participants' gender, age, profession, industry, monthly income level, education level, work experience (in years), whether they are satisfied with their salary, and (if they do not have the same income level as their colleagues) do they think that the reason for income inequality is the gender factor were asked. This research,’ Is there an income gap between men and women?’, ‘Does people’s job experiments affect their income?’, and ‘Do people with a higher education level earn more money?’ will try to answer questions.   
+
+## Literature Review
+
+ The country with the most pronounced income inequality is the United States of America. In the American Economy, whites earn much higher wages than blacks and males earn substantially higher wages than females in view of the important role that inequality in wages plays in explaining overall inequality of incomes [@blinder1973wage]. According to a research done in 1966, the earnings of women were 39% of that received by men. Analysis shows that, if women had the same occupational status as men, had worked all their lives, and had the same education and year-round full-time, their income would be increased barely to 62% of that received by men [@suter1973income]. Another study examining occupational gender segregation and its relationship to wages between 1973 and 1993 confirmed that wage levels are significantly lower in predominantly female occupations [@macpherson1995wages]. The difficulty of being a woman in business life is not only that her income is low, but also that women do not have high-level jobs easy as men. Also, the higher the position in the market hierarchy, it means the high level of work, the greater the wage disparity between men and women [@huffman2004gender].
+ 
+ One of the situations that creates a disadvantage in income distribution for women is motherhood. Studies show that being a married woman does not have any negative or positive effect on the wages of female employees, contrary to what is thought. However, having children has a negative impact on wages. That is, it finds little relationship between a woman's marital status and her wage rate, but generally finds a negative relationship between children and wages [@korenman1990marriage].
+ 
+  In order to make sense of the inequalities in income distribution, it is necessary to examine the sectors. Our main concern is the income differentials between the private and public sectors. While the general perception indicates that higher-risk investments should lead to greater rewards, in many developed and developing countries, those working in low-risk public sector jobs are paid more than those working in high-risk private-sector jobs. A higher wage premium, that is, for a safer and more beneficial public sector job, the wage is higher than for a corresponding private sector job. Even in the United States, jobs in the public sector have greater advantages than jobs in the private sector, according to the US Congressional Budget Office. They are safer, less stressful, offer a wider choice of health insurance plans, better retirement benefits, flexible working arrangements, and more holidays and vacation days per year [@podobnik2015does].
+ 
+ Educational attainment is one of the most important factors in determining the occupational and income levels to which a person can aspire [@glick1956educational]. A study conducted in 32 European countries, the United States of America and Japan, and examining the relationship between people's income and education level, shows that; It shows that the higher the education level of the person, the better the chances of finding a job and maintaining the status of the person working in times of crisis in the labor market [@ionescu2012does].
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
